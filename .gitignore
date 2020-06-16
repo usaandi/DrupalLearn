@@ -1,0 +1,13 @@
+vendor/
+.idea/
+.env
+# Ignore configuration files that may contain sensitive information.
+web/sites/*/services*.yml
+# Ignore paths that contain user-generated content.
+web/sites/*/files
+web/sites/*/private
+web/sites/default/settings.local.php
+config/excluded/*
+web/modules/contrib/*
+web/core/*
+web/libraries/*
