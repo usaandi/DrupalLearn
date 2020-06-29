@@ -1,0 +1,21 @@
+uuid: 7bde4d1c-849f-4037-a625-844aaed22136
+langcode: en
+status: true
+dependencies:
+  module:
+    - course_module
+  theme:
+    - course_theme
+id: helloblock_2
+theme: course_theme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: hello_block
+settings:
+  id: hello_block
+  label: 'Hello block'
+  provider: course_module
+  label_display: visible
+  course_title: Kaur
+visibility: {  }

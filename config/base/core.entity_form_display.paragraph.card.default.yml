@@ -1,0 +1,36 @@
+uuid: 59b8cec3-ec2c-4ac0-a54f-d82afc6763b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card.field_card
+    - field.field.paragraph.card.field_description
+    - image.style.card
+    - paragraphs.paragraphs_type.card
+  module:
+    - image
+    - text
+id: paragraph.card.default
+targetEntityType: paragraph
+bundle: card
+mode: default
+content:
+  field_card:
+    weight: 0
+    settings:
+      preview_image_style: card
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,10 @@
+uuid: 7ffa4118-cadc-45a6-b294-360ab6d6a778
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.super_view_mode
+label: 'super view mode'
+targetEntityType: node
+cache: true

@@ -1,0 +1,20 @@
+uuid: 7cd9adf1-bcb7-4aef-8d74-c2612d9282e0
+langcode: en
+status: false
+dependencies:
+  theme:
+    - course_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: course_theme_page_title
+theme: course_theme
+region: sidebar_first
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

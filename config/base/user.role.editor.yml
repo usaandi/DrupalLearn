@@ -1,0 +1,13 @@
+uuid: 0e0d93e2-63f9-49ac-bbc8-c1c0f7e20067
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: 'Blog Editor'
+weight: 3
+is_admin: null
+permissions:
+  - 'create blog_post content'
+  - 'delete own blog_post content'
+  - 'edit own blog_post content'
+  - 'post comments'

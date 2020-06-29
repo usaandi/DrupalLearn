@@ -1,0 +1,31 @@
+uuid: ba1fa275-63e0-4aec-beec-8196e740afd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_card_ref
+    - node.type.blog_post
+    - paragraphs.paragraphs_type.card
+  module:
+    - entity_reference_revisions
+id: node.blog_post.field_card_ref
+field_name: field_card_ref
+entity_type: node
+bundle: blog_post
+label: Card_ref
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      card: card
+    target_bundles_drag_drop:
+      card:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

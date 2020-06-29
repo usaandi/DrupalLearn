@@ -1,0 +1,29 @@
+uuid: aab4cd51-b896-40ce-a511-fbd6cde631f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_blocks
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_text_blocks
+field_name: field_text_blocks
+entity_type: node
+bundle: page
+label: 'Text blocks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: {  }
+    target_bundles_drag_drop:
+      text_with_picture:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

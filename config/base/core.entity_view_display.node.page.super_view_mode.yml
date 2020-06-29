@@ -1,0 +1,31 @@
+uuid: 6ad9ff55-278b-4e90-bb5d-556fef5dfc73
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.super_view_mode
+    - field.field.node.page.body
+    - field.field.node.page.field_text_blocks
+    - node.type.page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.super_view_mode
+targetEntityType: node
+bundle: page
+mode: super_view_mode
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 101
+    region: content
+hidden:
+  field_text_blocks: true

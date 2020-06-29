@@ -1,0 +1,21 @@
+uuid: ea63a522-eb09-416e-80c7-a02dcec6048c
+langcode: en
+status: true
+dependencies:
+  module:
+    - course_module
+  theme:
+    - course_theme
+id: helloblock
+theme: course_theme
+region: content
+weight: 0
+provider: null
+plugin: hello_block
+settings:
+  id: hello_block
+  label: 'Hello block'
+  provider: course_module
+  label_display: visible
+  course_title: s
+visibility: {  }

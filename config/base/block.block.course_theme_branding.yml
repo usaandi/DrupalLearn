@@ -1,0 +1,25 @@
+uuid: 26098747-9c0a-4563-b260-fbbaedc3fdfb
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - course_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: course_theme_branding
+theme: course_theme
+region: sidebar_first
+weight: 2
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

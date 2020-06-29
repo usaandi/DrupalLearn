@@ -1,0 +1,14 @@
+uuid: 6d00dc12-42f4-4f31-b7e0-d5028e4ef397
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.course_participant
+  module:
+    - user
+id: user_add_role_action.course_participant
+label: 'Add the Course participant role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: course_participant

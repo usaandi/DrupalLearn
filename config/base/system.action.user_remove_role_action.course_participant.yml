@@ -1,0 +1,14 @@
+uuid: 2856658c-c690-460f-beca-b47713fffc64
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.course_participant
+  module:
+    - user
+id: user_remove_role_action.course_participant
+label: 'Remove the Course participant role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: course_participant

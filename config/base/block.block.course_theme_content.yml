@@ -1,0 +1,22 @@
+uuid: 849a1544-77a5-4ea5-91af-26004c463e25
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - course_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: course_theme_content
+theme: course_theme
+region: sidebar_first
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

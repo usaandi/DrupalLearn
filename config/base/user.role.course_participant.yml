@@ -1,0 +1,9 @@
+uuid: 1a5ee7d8-d13b-4a59-8666-40f1f26a7c92
+langcode: en
+status: true
+dependencies: {  }
+id: course_participant
+label: 'Course participant'
+weight: 4
+is_admin: null
+permissions: {  }

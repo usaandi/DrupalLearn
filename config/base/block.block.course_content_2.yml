@@ -1,0 +1,21 @@
+uuid: 6af65774-5492-4733-9c99-ef2784fab2e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - course_module
+  theme:
+    - course_theme
+id: course_content_2
+theme: course_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: course_content
+settings:
+  id: course_content
+  label: Course_content
+  provider: course_module
+  label_display: visible
+  course_title: vahvvadddddd
+visibility: {  }
