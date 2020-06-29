@@ -1,0 +1,30 @@
+course_module.content:
+  path: '/example'
+  defaults:
+    _controller: '\Drupal\course_module\Controller\CourseController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+
+course_module.ajax:
+  path: '/admin/ajax/refresh'
+  defaults:
+    _controller: '\Drupal\course_module\Controller\CourseController::ajaxCallback'
+    _title: 'Ajax call'
+  requirements:
+    _permission: 'access content'
+
+
+course_module.ajax_form:
+  path: '/admin/form'
+  defaults:
+    _form: '\Drupal\course_module\Form\CourseAjaxForm'
+    _title: 'Ajax form'
+  requirements:
+    _permission: 'access content'
+
+
+
+
+
+

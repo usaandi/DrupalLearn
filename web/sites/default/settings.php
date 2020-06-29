@@ -11,3 +11,4 @@ if (getenv('ENV') === 'dev') {
   }
   $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/default/development.services.yml';
 }
+$settings['config_sync_directory'] = '../config/base';

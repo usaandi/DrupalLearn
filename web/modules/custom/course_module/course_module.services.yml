@@ -1,0 +1,4 @@
+services:
+
+  course_module.user_services:
+    class: Drupal\course_module\UserServices

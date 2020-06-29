@@ -1,0 +1,8 @@
+course_hello:
+  version: 1.x
+  js:
+    js/ajaxCommand.js: {}
+    js/course-theme.js: {}
+  css:
+    base:
+      css/course-theme.css: {}

@@ -1,0 +1,14 @@
+<?php
+
+use Drupal\user\Entity\User;
+
+function course_module_update_8001() {
+
+}
+
+function _generate_users(){
+
+  $lang = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  User::create();
+
+}

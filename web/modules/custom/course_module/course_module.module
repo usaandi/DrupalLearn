@@ -1,0 +1,26 @@
+<?php
+
+
+use Drupal\User\UserInterface;
+
+/**
+ * Description.
+ *
+ * @param $account
+ *   User account.
+ */
+
+
+function course_module_user_login($account) {
+
+
+    Drupal::messenger()->addStatus('Hello world');
+
+}
+
+function course_module_user_logout($account) {
+
+    Drupal::messenger()->addStatus('You have logged out');
+
+}
+

@@ -1,0 +1,5 @@
+name: Course module
+description: Course module
+package: Custom
+type: module
+core: 8.x

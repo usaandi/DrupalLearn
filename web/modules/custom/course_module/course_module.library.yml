@@ -1,0 +1,3 @@
+course_example:
+  js:
+    js/course-example.js: {}
